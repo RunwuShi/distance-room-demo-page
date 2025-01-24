@@ -7,13 +7,14 @@ body {
 
 .sidebar {
     width: 200px;
-    background-color: #333;
-    color: white;
+    background-color: #e7e7e7;
+    color: rgb(0, 0, 0);
     padding: 0px;
     height: 100vh; /* 使侧边栏高度为视口高度 */
     position: fixed; /* 固定侧边栏 */
     left: -200px; /* 初始状态下隐藏侧边栏 */
     transition: left 0.3s; /* 添加过渡效果 */
+    font-weight: bold; /* 全局加粗 */
 }
 
 .sidebar.active {
@@ -22,6 +23,7 @@ body {
 
 .sidebar h2 {
     text-align: center;
+    font-weight: 800;
 }
 
 .sidebar ul {
@@ -33,8 +35,14 @@ body {
     margin: 15px 0;
 }
 
+
 .sidebar ul li a {
-    color: white;
+    /* 已有样式... */
+    font-weight: inherit; /* 继承父级加粗效果 */
+}
+
+.sidebar ul li a {
+    color: rgb(0, 0, 0);
     text-decoration: none;
     display: block;
     padding: 10px;
@@ -42,7 +50,7 @@ body {
 }
 
 .sidebar ul li a:hover {
-    background-color: #575757;
+    background-color: #acacac;
 }
 
 .main-content {
@@ -51,7 +59,6 @@ body {
     flex-grow: 1;
     transition: margin-left 0.3s; /* 添加过渡效果 */
 }
-
 .main-content.active {
     margin-left: 220px; /* 侧边栏显示时调整主内容的左边距 */
 }
@@ -60,8 +67,8 @@ body {
     position: fixed;
     top: 10px;
     left: 10px;
-    background-color: #b7b7b7;
-    color: rgb(0, 0, 0);
+    background-color: #e35765;
+    color: rgb(254, 254, 254);
     border: none;
     width: 40px; /* 设置按钮宽度 */
     height: 40px; /* 设置按钮高度 */
@@ -70,7 +77,7 @@ body {
     border-radius: 50%; /* 设置圆角为50% */
     transition: left 0.3s; /* 添加过渡效果 */
     font-size: 24px; /* 增加字体大小 */
-    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3); /* 添加阴影效果 */
+    box-shadow: 0 0 5px rgba(190, 190, 190, 0.3); /* 添加阴影效果 */
     display: flex;
     align-items: center;
     justify-content: center;

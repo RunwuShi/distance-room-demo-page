@@ -1,0 +1,132 @@
+{
+    "room_dim_batch": [
+        [
+            [
+                7.0,
+                8.0,
+                3.0
+            ],
+            [
+                7.0,
+                8.0,
+                3.0
+            ]
+        ]
+    ],
+    "mic_posi_batch": [
+        [
+            [
+                3.5,
+                4.0,
+                1.100000023841858
+            ],
+            [
+                3.5,
+                4.0,
+                1.100000023841858
+            ]
+        ]
+    ],
+    "to_wall_batch": [
+        [
+            [
+                [
+                    3.5,
+                    4.0,
+                    1.100000023841858
+                ],
+                [
+                    3.5,
+                    4.0,
+                    1.899999976158142
+                ]
+            ],
+            [
+                [
+                    3.5,
+                    4.0,
+                    1.100000023841858
+                ],
+                [
+                    3.5,
+                    4.0,
+                    1.899999976158142
+                ]
+            ]
+        ]
+    ],
+    "rts_batch": [
+        [
+            0.20000000298023224,
+            0.20000000298023224
+        ]
+    ],
+    "used_RIR_info": [
+        [
+            {
+                "room_index": 0,
+                "mic_index": 0,
+                "name": "room0_RT_0.2_mic_1per_1000dis_10_mic00000_mici00000_00352_00000.wav",
+                "rever_path": "/mnt/work/dataset/preprocessed/RIR_room_1mic_1000_rt0.2/data/room0_RT_0.2_mic_1per_1000dis_10_mic00000_mici00000_00352_00000.wav",
+                "room_dim": [
+                    7.0,
+                    8.0,
+                    3.0
+                ],
+                "rir_len": 9046,
+                "sample rate": 16000,
+                "rt60": 0.2,
+                "e_absorption": 0.6699782852922663,
+                "max_order": 24,
+                "source_posi": [
+                    3.037,
+                    4.174,
+                    1.385
+                ],
+                "mic_posi": [
+                    3.5,
+                    4.0,
+                    1.1
+                ],
+                "dis_to_mic_3D": 0.571,
+                "dis_to_mic_2D": 0.495,
+                "dis_low_bound": 0.2,
+                "dis_high_bound": 0.5,
+                "mic_min_dis": 3.0,
+                "mic_max_dis": 4.61
+            },
+            {
+                "room_index": 0,
+                "mic_index": 0,
+                "name": "room0_RT_0.2_mic_1per_1000dis_10_mic00000_mici00000_00887_00004.wav",
+                "rever_path": "/mnt/work/dataset/preprocessed/RIR_room_1mic_1000_rt0.2/data/room0_RT_0.2_mic_1per_1000dis_10_mic00000_mici00000_00887_00004.wav",
+                "room_dim": [
+                    7.0,
+                    8.0,
+                    3.0
+                ],
+                "rir_len": 9099,
+                "sample rate": 16000,
+                "rt60": 0.2,
+                "e_absorption": 0.6699782852922663,
+                "max_order": 24,
+                "source_posi": [
+                    1.89,
+                    2.695,
+                    1.544
+                ],
+                "mic_posi": [
+                    3.5,
+                    4.0,
+                    1.1
+                ],
+                "dis_to_mic_3D": 2.119,
+                "dis_to_mic_2D": 2.072,
+                "dis_low_bound": 2.0,
+                "dis_high_bound": 2.5,
+                "mic_min_dis": 3.0,
+                "mic_max_dis": 4.61
+            }
+        ]
+    ]
+}
